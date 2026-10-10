@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="微信防撤回">
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data android:name="xposeddescription" android:value="消息防撤回 / 禁止上报正在输入（微信 8.0.77）" />
+        <meta-data android:name="xposedminversion" android:value="82" />
+    </application>
+</manifest>
